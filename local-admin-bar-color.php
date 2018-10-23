@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Local Admin Color Bar
- * Plugin URL: https://serverpress.com/plugins/local-admin-bar-color
-* Description: Changes the Admin bar color
-* Version: 1.0.1
-* Author: Gregg Franklin
-* Author URI: http://greggfranklin.com
+ * Plugin URL: https://github.com/CapWebSolutions/local-admin-color-bar
+ * Description: Changes the Admin bar color
+ * Version: 1.0.2
+ * Author: Matt Ryan
+ * Author URI: https://mattryan.co
  */
 
 /*
@@ -38,7 +38,7 @@ function ds_admin_bar_notice() {
 
 	} else {
 
-		$env_text = 'LOCAL DEVELOPMENT WEBSITE';
+		$env_text = '.LOCAL DEVELOPMENT WEBSITE';
 
 	}
 
@@ -62,7 +62,7 @@ function ds_admin_bar_notice_css() {
 
 	} else {
 
-			$env_color = '#0073AA';
+			$env_color = '#6f4e37';   // set default to coffee color
 	}
 
 	echo "<!-- WPLT Admin Bar Notice -->
